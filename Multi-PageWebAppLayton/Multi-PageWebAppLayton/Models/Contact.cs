@@ -10,5 +10,7 @@ namespace Multi_PageWebAppLayton.Models
 
         [Required(ErrorMessage = "Please enter a phone number.")]
         public string? Phone { get; set; }
+        public string? Address { get; set; }
+        public string? Note { get; set; }
     }
 }

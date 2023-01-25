@@ -4,7 +4,7 @@
 
 #pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
 
-namespace Multi_PageWebAppLayton.Migrations
+namespace MultiPageWebAppLayton.Migrations
 {
     /// <inheritdoc />
     public partial class Initial : Migration
@@ -19,7 +19,9 @@ namespace Multi_PageWebAppLayton.Migrations
                     ContactId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Name = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Phone = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Phone = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Address = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Note = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -28,12 +30,12 @@ namespace Multi_PageWebAppLayton.Migrations
 
             migrationBuilder.InsertData(
                 table: "Contacts",
-                columns: new[] { "ContactId", "Name", "Phone" },
+                columns: new[] { "ContactId", "Address", "Name", "Note", "Phone" },
                 values: new object[,]
                 {
-                    { 1, "Mark Ruffalo", "673-392-1992" },
-                    { 2, "John Cena", "551-523-5493" },
-                    { 3, "Biscuit Johnson", "641-841-0218" }
+                    { 1, "1234 Monkey Tree Lane, Newton, IA 50208", "Mark Ruffalo", " ", "673-392-1992" },
+                    { 2, "294 River Road Ankeny, IA 50021", "John Cena", " ", "551-523-5493" },
+                    { 3, "9555 Buffalo Wing Ave, Indianola 50003", "Biscuit Johnson", "I hate this guy", "641-841-0218" }
                 });
         }
 

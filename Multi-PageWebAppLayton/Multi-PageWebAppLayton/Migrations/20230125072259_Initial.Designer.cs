@@ -8,10 +8,10 @@ using Multi_PageWebAppLayton.Models;
 
 #nullable disable
 
-namespace Multi_PageWebAppLayton.Migrations
+namespace MultiPageWebAppLayton.Migrations
 {
     [DbContext(typeof(ContactContext))]
-    [Migration("20230124142513_Initial")]
+    [Migration("20230125072259_Initial")]
     partial class Initial
     {
         /// <inheritdoc />
@@ -32,8 +32,14 @@ namespace Multi_PageWebAppLayton.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ContactId"));
 
+                    b.Property<string>("Address")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Note")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Phone")
@@ -48,19 +54,25 @@ namespace Multi_PageWebAppLayton.Migrations
                         new
                         {
                             ContactId = 1,
+                            Address = "1234 Monkey Tree Lane, Newton, IA 50208",
                             Name = "Mark Ruffalo",
+                            Note = " ",
                             Phone = "673-392-1992"
                         },
                         new
                         {
                             ContactId = 2,
+                            Address = "294 River Road Ankeny, IA 50021",
                             Name = "John Cena",
+                            Note = " ",
                             Phone = "551-523-5493"
                         },
                         new
                         {
                             ContactId = 3,
+                            Address = "9555 Buffalo Wing Ave, Indianola 50003",
                             Name = "Biscuit Johnson",
+                            Note = "I hate this guy",
                             Phone = "641-841-0218"
                         });
                 });

@@ -10,6 +10,8 @@
         <tr>
             <th>Name</th>
             <th>Phone</th>
+            <th>Address</th>
+            <th>Note</th>
             <th></th>
         </tr>
     </thead>
@@ -19,6 +21,8 @@
             <tr>
                 <td>@contact.Name</td>
                 <td>@contact.Phone</td>
+                <td>@contact.Address</td>
+                <td>@contact.Note</td>
                 <td>
                     <a asp-controller="Contact" asp-action="Delete"
                    asp-route-id="@contact.ContactId">Delete</a>

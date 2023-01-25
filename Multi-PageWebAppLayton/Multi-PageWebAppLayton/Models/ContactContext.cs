@@ -15,19 +15,25 @@ namespace Multi_PageWebAppLayton.Models
             {
                 ContactId = 1,
                 Name = "Mark Ruffalo",
-                Phone = "673-392-1992"
+                Phone = "673-392-1992",
+                Address = "1234 Monkey Tree Lane, Newton, IA 50208",
+                Note = " "
             },
             new Contact
             {
                 ContactId = 2,
                 Name = "John Cena",
-                Phone = "551-523-5493"
+                Phone = "551-523-5493",
+                Address = "294 River Road Ankeny, IA 50021",
+                Note = " "
             },
             new Contact
             {
                 ContactId = 3,
                 Name = "Biscuit Johnson",
-                Phone = "641-841-0218"
+                Phone = "641-841-0218",
+                Address = "9555 Buffalo Wing Ave, Indianola 50003",
+                Note = "I hate this guy"
             }
             );
         }
