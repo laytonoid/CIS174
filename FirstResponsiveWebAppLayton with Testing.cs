@@ -14,7 +14,7 @@ namespace Responsive.Models
             "Birth year must be year between 1850 and 2100")]
         public int? BirthYear { get; set; }
 
-        public string CalculateAge(string name, int birth)
+        public string CalculateAge1(string name, int birth)
         {
             (string, int, int) person; 
             person.Item1 = name;

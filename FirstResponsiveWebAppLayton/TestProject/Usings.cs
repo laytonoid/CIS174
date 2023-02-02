@@ -1,4 +1,0 @@
-global using Microsoft.VisualStudio.TestTools.UnitTesting;
-global using FirstResponsiveWebAppLayton.Controller;
-global using FirstResponsiveWebAppLayton.Models;
-global using FirstResponsiveWebAppLayton.Repository;
