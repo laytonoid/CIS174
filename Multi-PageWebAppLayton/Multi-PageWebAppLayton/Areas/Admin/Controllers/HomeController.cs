@@ -1,10 +1,8 @@
-﻿using System.Linq;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using Multi_PageWebAppLayton.Models;
+﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Multi_PageWebAppLayton.Controllers
+namespace Multi_PageWebAppLayton.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class HomeController : Controller
     {
         private ContactContext context { get; set; }

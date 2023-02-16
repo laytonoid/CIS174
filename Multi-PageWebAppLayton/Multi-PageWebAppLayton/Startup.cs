@@ -11,8 +11,30 @@ public class Startup
     public IConfiguration Configuration { get; }
     public void ConfigureServices(IServiceCollection services)
     {
-        services.AddDbContext<ContactContext>(options => 
+        services.AddControllersWithViews();
+        services.AddDbContext<ContactContext>(options =>
             options.UseSqlServer(
                 Configuration.GetConnectionString("ContactContext")));
+    }
+    // Use this method to configure the HTTP request pipeline. 
+    public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+    {
+        app.UseDeveloperExceptionPage();
+        app.UseHttpsRedirection();
+        app.UseStaticFiles();
+        app.UseRouting(); // mark where routing decisions are made
+
+        // configure middleware that runs after routing decisions have been made
+
+        app.UseEndpoints(endpoints => // map the endpoints 
+        {
+            endpoints.MapControllerRoute(
+                name: "admin",
+                pattern: "Admin/{controller=Home}/{action=Index}/{id?}");
+
+            endpoints.MapControllerRoute(
+                name: "default",
+                pattern: "{controller=Home}/{action=Index}/{id?}");
+        });
     }
 }
