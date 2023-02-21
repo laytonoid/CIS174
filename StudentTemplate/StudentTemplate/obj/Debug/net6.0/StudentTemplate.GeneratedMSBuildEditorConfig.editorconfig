@@ -1,0 +1,113 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = StudentTemplate
+build_property.RootNamespace = StudentTemplate
+build_property.ProjectDir = C:\Users\Taylor\Desktop\Taylor's School Work\CIS174\StudentTemplate\StudentTemplate\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Taylor\Desktop\Taylor's School Work\CIS174\StudentTemplate\StudentTemplate
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Areas/AccessLevel2/Views/Assignments/Assignment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzTGV2ZWwyXFZpZXdzXEFzc2lnbm1lbnRzXEFzc2lnbm1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Areas/AccessLevel2/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzTGV2ZWwyXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Areas/AccessLevel2/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzTGV2ZWwyXFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Areas/AccessLevel2/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzTGV2ZWwyXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Areas/AccessLevel2/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzTGV2ZWwyXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Areas/AccessLevel2/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzTGV2ZWwyXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Areas/AccessLevel2/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzTGV2ZWwyXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Areas/AccessLevel3/Views/Assignments/Assignment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzTGV2ZWwzXFZpZXdzXEFzc2lnbm1lbnRzXEFzc2lnbm1lbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Areas/AccessLevel3/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzTGV2ZWwzXFZpZXdzXEhvbWVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Areas/AccessLevel3/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzTGV2ZWwzXFZpZXdzXEhvbWVcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Areas/AccessLevel3/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzTGV2ZWwzXFZpZXdzXFNoYXJlZFxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Areas/AccessLevel3/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzTGV2ZWwzXFZpZXdzXFNoYXJlZFxfVmFsaWRhdGlvblNjcmlwdHNQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Areas/AccessLevel3/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzTGV2ZWwzXFZpZXdzXF9WaWV3SW1wb3J0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Areas/AccessLevel3/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzTGV2ZWwzXFZpZXdzXF9WaWV3U3RhcnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Views/Assignments/Assignment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXNzaWdubWVudHNcQXNzaWdubWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Areas/AccessLevel2/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzTGV2ZWwyXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-74mpj0xism
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Areas/AccessLevel3/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWNjZXNzTGV2ZWwzXFZpZXdzXFNoYXJlZFxfTGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = b-zmuodmu2ox
+
+[C:/Users/Taylor/Desktop/Taylor's School Work/CIS174/StudentTemplate/StudentTemplate/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-htxxsnydt4
