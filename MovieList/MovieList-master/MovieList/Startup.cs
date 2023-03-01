@@ -10,8 +10,8 @@ public class Startup
     public IConfiguration Configuration { get; }
     public void ConfigureServices(IServiceCollection services)
     {
-        services.AddDbContext<MovieContext>(options => 
+        services.AddDbContext<MovieContext>(options =>
             options.UseSqlServer(
                 Configuration.GetConnectionString("MovieContext")));
-    } 
+    }
 }

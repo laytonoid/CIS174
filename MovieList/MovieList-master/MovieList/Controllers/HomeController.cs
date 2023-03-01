@@ -12,11 +12,23 @@ namespace MovieList.Controllers
         {
             context = ctx;
         }
-        public IActionResult Index()
+        public ViewResult Index(string activeGenre = "all")
         {
-            List<Movie> movies = context.Movies.Include(m => m.Genre)
-                .OrderBy(m => m.Name).ToList();
-            return View(movies);
+
+            ViewBag.ActiveGenre = activeGenre;
+
+            List<Genre> genres = context.Genres.ToList();
+            genres.Insert(0, new Genre { GenreId = "all", Name = "All" });
+
+            ViewBag.Genre = genres;
+
+            IQueryable<Movie> query = context.Movies;
+            if (activeGenre != "all")
+                query = query.Where(
+                    t => t.Genre.GenreId.ToLower() ==
+                        activeGenre.ToLower());
+            var genre= query.ToList();
+            return View(genres);
         }
     }
 }

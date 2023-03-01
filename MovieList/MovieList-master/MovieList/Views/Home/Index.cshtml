@@ -31,4 +31,15 @@
             </tr> 
         } 
     </tbody>
-</table> 
+</table>
+<div class="row">
+    <div class="col-sm-3"> 
+        <h3>Conference</h3> 
+        <div class="list-group"> 
+            @foreach (Genre genre in Model.Movie) { 
+                <a asp-action="Index"
+                    asp-route-conference="@genre.GenreId" 
+                    asp-route-division="@Model.Movie" 
+                    class="list-group-item
+                        @Model.CheckActiveGenre(genre.GenreId)">@genre.Name</a>
+            }

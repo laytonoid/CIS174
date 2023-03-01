@@ -19,5 +19,7 @@ namespace MovieList.Models
         [Required(ErrorMessage = "Please enter a genre.")]
         public string? GenreId { get; set; }
         public Genre? Genre { get; set; }
+
+        public Movie? Movies { get; set; }
     }
 }
