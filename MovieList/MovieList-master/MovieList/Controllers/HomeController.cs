@@ -31,4 +31,5 @@ namespace MovieList.Controllers
             return View(genres);
         }
     }
+
 }

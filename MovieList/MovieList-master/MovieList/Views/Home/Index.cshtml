@@ -43,3 +43,10 @@
                     class="list-group-item
                         @Model.CheckActiveGenre(genre.GenreId)">@genre.Name</a>
             }
+            <form asp-action="Add" method="post">
+                <label for="description">Description:</label> 
+                    <input type="text" name="description"> 
+                <label for="duedate">Due Date:</label>
+                    <input type="text" name="duedate"> 
+                <button type="submit">Add</button>
+            </form>

@@ -56,5 +56,9 @@ namespace MovieList.Controllers
             context.SaveChanges();
             return RedirectToAction("Index", "Home");
         }
+        public void Save()
+        {
+            context.SaveChanges();
+        }
     }
 }
