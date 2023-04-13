@@ -28,7 +28,7 @@ namespace MovieList.Controllers
         public IActionResult Edit(Movie movie)
         {
             if (ModelState.IsValid)
-            {
+            { 
                 if (movie.MovieId == 0) 
                     context.Movies.Add(movie);
                 else

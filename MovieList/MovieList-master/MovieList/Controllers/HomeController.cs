@@ -27,7 +27,7 @@ namespace MovieList.Controllers
             if (activeGenre != "all")
                 query = query.Where(
                     t => t.Genre.GenreId.ToLower() ==
-                        activeGenre.ToLower());
+                        activeGenre.ToLower()); 
             var genre = query.ToList();
             return View(genres);
         }
