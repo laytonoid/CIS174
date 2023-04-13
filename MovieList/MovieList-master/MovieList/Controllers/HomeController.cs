@@ -2,7 +2,7 @@
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using MovieList.Models;
+using MovieList.Models; 
 
 namespace MovieList.Controllers
 {

@@ -3,7 +3,7 @@ namespace MovieList.Models
 {
     public class Movie
     {
-        public int MovieId { get; set; }
+        public int MovieId { get; set; } 
 
         [Required(ErrorMessage = "Please enter a name.")] 
         public string? Name { get; set; }
